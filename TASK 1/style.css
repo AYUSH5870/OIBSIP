@@ -1,0 +1,74 @@
+
+body{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image:url('coffee\ cup.png');
+}
+nav{
+   
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo{
+    color:white;
+    padding:20px 20px;
+    font-size:4em;
+}
+.menu a{ 
+    text-decoration:none;
+    color:white;
+    font-size:3em;
+    font-family:arial;
+    position:relative;
+    padding-inline:60px;
+    
+}
+.menu a:before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height:100%;
+    border-bottom: 2px solid white;
+    transition:0.4s linear;
+
+}
+.menu a:hover:before{
+    width:90%;
+}
+.register a {
+    text-decoration:none;
+    margin:585px;
+    color:white;
+    font-size:3em;
+    font-family:arial;
+    padding:10px;
+    border-color:white 2px;
+    border-radius:50px;
+    
+   
+}
+.register a:hover{
+    background:#000000; 
+}
+.order{
+    color:white;
+    font-size:3em;
+    max-width:0 60rem;
+    font-family:'Lucida Grande';
+    text-align: center;
+    margin-top:10%;
+
+}
+.order1{
+    color:palevioletred;
+    font-size: 1em;
+    text-align:center;
+   
+}
+.span{
+    text-align: center;
+    font-size:1em;
+}
