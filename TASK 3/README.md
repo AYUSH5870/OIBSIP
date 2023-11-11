@@ -1,1 +1,2 @@
-Tempreature Converter Website
+Temperature Converter Website
+This website converts the tempreature from FARHENHEIT TO CELSIUS AND CELSIUS TO FARHENHEIT
